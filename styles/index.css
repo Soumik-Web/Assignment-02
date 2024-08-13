@@ -199,7 +199,7 @@
 .visual-info-card-2{
     position: absolute;
     top: 150px;
-    left: 70%;  
+    left: 60%;  
 }
 
 .visual-info-details>h2 {
@@ -290,7 +290,7 @@
         line-height: 40px;
     }
     .visual-info{
-        width: 150px;
+        width: 140px;
         height: 72px;
     }
 
@@ -306,12 +306,12 @@
 
     .visual-info-card-1{
         top: 275px;
-        left: 0%;
+        left: 5%;
     }
     
     .visual-info-card-2{
         top: 50px;
-        left: 55%;  
+        left: 54%;  
     }
     .btn-primary {
         width: calc((100% - 24px)/2);
