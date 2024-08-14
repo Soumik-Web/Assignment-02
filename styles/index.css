@@ -405,7 +405,10 @@
 
 @media screen and (max-width: 578px) {
     .adjust-width{
-        margin: 0 20px;
+        margin-left: 10px;
+    }
+    .btn-primary{
+        font-size: 1rem;
     }
     .text-title{
         font-size: 2rem;
@@ -488,6 +491,7 @@
         justify-content: center;
         gap: 30px;
         margin-top: 70px;
+        margin-right: 10px;
     }
     .join-description{
         width: 80vw;
