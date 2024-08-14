@@ -45,7 +45,7 @@
 
 .text-title{
     font-size: 3rem;
-    width: 900;
+    font-weight: 900;
 }
 .display-flex{
     display: flex;
@@ -502,6 +502,58 @@
 
 
 
+/* Fooer Styles */
+.footer-description{
+    max-width: 440px;
+}
+.footer-description-title{
+    margin-bottom: 20px;
+}
+
+#footer-contant{
+    grid-area: contant;
+}
+#services-list-1{
+    grid-area: list-1;
+}
+#services-list-2{
+    grid-area: list-2;
+}
+
+.footer-info{
+    grid-template-areas: 
+    "contant contant list-1 list-2"
+    ;
+    padding: 70px 0;
+    gap: 100px;
+}
+
+
+.service-title{
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+}
+.services{
+    list-style: none;
+    padding: 0;
+}
+.services li{
+    margin-top: 5px;
+}
+
+.copy-right{
+    text-align: center;
+    font-size: 1.15rem;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
 
 
 
@@ -576,6 +628,13 @@
     .bmi-calculate{
         gap: 60px;
         flex-direction: column;
+    }
+    .footer-info{
+        grid-template-areas: 
+        "contant    contant"
+        "list-1     list-2"
+        ;
+        gap: 50px;
     }
     
 }
@@ -732,6 +791,7 @@
     }
     .bmi-form{
         overflow: hidden;
+        padding: 5px;
     }
     .calculate-feilds{
         padding-left: 20px;
@@ -754,6 +814,23 @@
     }
     .team-profiles{
         grid-template-columns: 1fr;
+    }
+    .footer-info{
+        grid-template-areas: 
+        "contant"
+        "list-1"
+        "list-2"
+        ;
+        gap: 30px;
+    }
+    .copy-right{
+        font-size: 1rem;
+    }
+    .text-title{
+        font-size: 1.6rem;
+    }
+    .service-title{
+        margin-bottom: 10px;
     }
     
 }
