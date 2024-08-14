@@ -20,7 +20,7 @@
 }
 .bg-dark{
     background-color: black;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 .bg-linear-dark {
@@ -221,7 +221,9 @@
     font-size: 2.5rem;
     line-height: 35px;
 }
-
+.cover-visuals>img{
+    width: 100%;
+}
 
 
 
@@ -452,7 +454,7 @@
 .profile-card{
     /* border: 1px dotted coral; */
     /* width: 340px; */
-    background-color: ;
+    /* background-color: ; */
     border-radius: 18px;
     height: 270px;
     display: flex;
@@ -575,7 +577,7 @@
         gap: 60px;
         flex-direction: column;
     }
-
+    
 }
 
 
@@ -747,5 +749,11 @@
         gap: 12px;
         margin-top: 34px;
     } */
+    .team-description-title{
+        margin-bottom: 8px;
+    }
+    .team-profiles{
+        grid-template-columns: 1fr;
+    }
     
 }
