@@ -432,8 +432,8 @@
     padding-top: 16px;
     padding-bottom: 16px;
     border-radius: 8px;
+    outline: none;
 }
-
 .bmi-selection{
     color: rgb(117, 111, 111);
 }
@@ -473,6 +473,10 @@
     padding-bottom: 60px;
     max-width: 640px;
     margin: auto;
+ }
+ .team-description-details{
+    margin-top: 12px;
+    line-height: 25px;
  }
 #profile-1{
     background-image:  url(../assets/images/trainer1.png);
@@ -551,11 +555,48 @@
 
 
 
+/* Challange Section Styles */
+.benifits{
+    /* border: 1px solid lawngreen; */
+    padding-top: 100px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.benifits-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.benifit-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.benifit-card{
+    background-color: rgba(81, 77, 77, 0.198);
+    box-shadow: 7px 7px 15px rgba(200, 196, 196, 0.316);
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 15px 10px;
+    border-radius: 10px;
 
-
-
-
-
+}
+.benifit-card-image{
+    width: 140px;
+    height: 140px;
+}
+.benifit-card-image>img{
+    width: 100%;
+    filter: brightness(75%);
+}
+.benifit-title{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    opacity: .8;
+}
 
 
 
@@ -636,7 +677,12 @@
         ;
         gap: 50px;
     }
-    
+    .benifits{
+        flex-direction: column;
+    }
+    .benifits-title{
+        font-size: 2rem;
+    }
 }
 
 
@@ -812,6 +858,10 @@
     .team-description-title{
         margin-bottom: 8px;
     }
+    .team-description-details{
+        margin-top: 0;
+        line-height: 15px;
+     }
     .team-profiles{
         grid-template-columns: 1fr;
     }
@@ -831,6 +881,17 @@
     }
     .service-title{
         margin-bottom: 10px;
+    }
+    
+    .benifits{
+        flex-direction: column;
+    }
+    .benifits-title{
+        font-size: 1.5rem;
+    }
+    .benifit-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
     }
     
 }
